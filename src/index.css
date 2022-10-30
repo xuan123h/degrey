@@ -1,0 +1,83 @@
+@import "antd/dist/antd.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+/* Slider */
+.slick-next:before,
+.slick-prev:before {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: black;
+}
+.slick-dots li button:before {
+  font-size: 20px;
+}
+.swiper-slide {
+  margin: 50px 0;
+}
+.swiper-slide img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.swiper-wrapper {
+  width: 500px;
+  height: 500px;
+}
+.jZRbWb {
+  width: 300px !important;
+  height: 400px !important;
+}
+.paginationBttns {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border: none;
+  outline: none;
+  gap: 40px;
+}
+.paginationBttns li {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  color: white !important;
+  background-color: #fff;
+  list-style: none;
+}
+.sc-cmUMNf {
+  outline: none;
+}
+.sc-oZIhv {
+  border: none;
+  background: none !important;
+}
+.sc-hiDMwi,
+.sc-jGpnme button {
+  border: none;
+  background: none !important;
+}
+section {
+  padding: 60px 0px;
+}
+.ant-modal-content {
+  height: 620px !important;
+}
+.ant-modal-footer {
+  position: absolute;
+  top: 560px;
+  right: 20px;
+}
+section {
+  padding: 0 250px;
+}
+.box-modal {
+  background: #ccc;
+}
